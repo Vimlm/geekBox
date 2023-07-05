@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Flex', sans-serif;
+  color: var(--cor-11);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

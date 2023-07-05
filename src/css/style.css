@@ -1,0 +1,7 @@
+/* Imports Globais */
+@import url(../css/global/global.css);
+@import url(../css/utils/cor.css);
+@import url(../css/components/componentes.css);
+
+
+@import url(../css/pages/login.css);
