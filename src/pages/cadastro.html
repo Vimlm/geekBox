@@ -4,80 +4,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="../css/pages/cadastro.css">
+  <title>Cadastro</title>
 </head>
 
 <body>
 
   <section class="conteiner">
     <img src="" alt="">
-    <form action="">
-      <div class="dados-pessoais">
-        <div class="nome-completo">
-          <span>Dados Pessoais</span>
+    <main>
+      <form action="">
+        <div class="dados-pessoais">
+          <div class="nome-completo">
+            <span>Dados Pessoais</span>
 
-          <div class="nome">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" required>
+            <div class="nome">
+              <label for="nome">Nome</label>
+              <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="sobrenome">
+              <label for="sobrenome">sobrenome</label>
+              <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
           </div>
 
-          <div class="sobrenome">
-            <label for="sobrenome">sobrenome</label>
-            <input type="text" name="sobrenome" id="sobrenome" required>
-          </div>
-        </div>
-
-        <div class="cpf">
-          <label for="cpf">CPF</label>
-          <input type="number" name="cpf" id="cpf" required>
-        </div>
-
-        <div class="email">
-          <label for="email">E-mail</label>
-          <input type="email" name="email" id="email" required>
-        </div>
-      </div>
-
-      <div class="dados-residenciais">
-        <span>Dados Residenciais</span>
-
-        <div class="cep-numero">
-          <div class="cep">
-            <label for="cep">CEP</label>
-            <input type="text" name="cep" id="cep" required>
+          <div class="cpf">
+            <label for="cpf">CPF</label>
+            <input type="text" name="cpf" id="cpf" required>
           </div>
 
-          <div class="numero">
-            <label for="numero">Número</label>
-            <input type="text" name="numero" id="numero" required>
+          <div class="email">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
           </div>
         </div>
 
-        <div class="logradouro-bairro">
-          <div class="logradouro">
-            <label for="logradouro">Logradouro</label>
-            <input type="text" name="logradouro" id="logradouro" required>
+        <div class="dados-residenciais">
+          <span>Dados Residenciais</span>
+
+          <div class="cep-numero">
+            <div class="cep">
+              <label for="cep">CEP</label>
+              <input type="text" name="cep" id="cep" required>
+            </div>
+
+            <div class="numero">
+              <label for="numero">Número</label>
+              <input type="text" name="numero" id="numero" required>
+            </div>
           </div>
 
-          <div class="bairro">
-            <label for="bairro">Bairro</label>
-            <input type="text" name="bairro" id="bairro" required>
-          </div>
+          <div class="logradouro-bairro">
+            <div class="logradouro">
+              <label for="logradouro">Logradouro</label>
+              <input type="text" name="logradouro" id="logradouro" required>
+            </div>
 
-          <div class="cidade-estado">
-            <div class="cidade">
-              <label for="cidade">Cidade</label>
-              <input type="text" name="cidade" id="cidade" required>
+            <div class="bairro">
+              <label for="bairro">Bairro</label>
+              <input type="text" name="bairro" id="bairro" required>
+            </div>
 
-              <div class="estado">
-                <label for="estado">Estado</label>
-                <input type="text" name="estado" id="estado" required>
+            <div class="cidade-estado">
+              <div class="cidade">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" required>
+
+                <div class="estado">
+                  <label for="estado">Estado</label>
+                  <input type="text" name="estado" id="estado" required>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </form>
+        <div class="termo-botao">
+          <div class="termo">
+            <input type="checkbox">
+            <span>Li e concordo com os <a href="">termos e condições</a></span>
+          </div>
+          <div class="botao">
+            <button>Registrar</button>
+          </div>
+        </div>
+      </form>
+    </main>
   </section>
 
 </body>
