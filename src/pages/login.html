@@ -7,18 +7,28 @@
   <title>Faça Login 🔐</title>
 </head>
 <body>
-  <main class="login-formulario" aria-label="Login">
+  <section class="container box-form">
+    <h1>Login</h1>
     <form class="form" action="">
-      <div>
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Seu email">
+      <div class="entrada-dados">
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" required placeholder="Digite seu email">
+        </div>
+    
+        <div class="senha">
+          <label for="senha">Senha</label>
+          <input type="email" required placeholder="Digite seu email">
+        </div>
+        <a href="#">esqueceu a senha?</a>
       </div>
-      <div>
-        <label for="senha">Senha</label>
-        <input type="password" id="password" name="password" placeholder="Sua senha">
+  
+
+      <div class="botoes">
+        <button>Enviar</button>
+        <button>Registrar-se</button>
       </div>
-      <button class="botao col-2">Enviar</button>
     </form>
-  </main>
+  </section>
 </body>
 </html>

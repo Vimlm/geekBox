@@ -1,15 +1,1 @@
 /* Botões */
-
-.botao {
-  font: 600 1.125rem/1.35 "Play", sans-serif;
-  display: inline-block;
-  padding: 8px 30px;
-  background: linear-gradient(#ffbf00, #f2a50c);
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba (0, 0, 0, 0.1);
-  text-transform: uppercase;
-  color: var(--cor-p6);
-  max-width: max-content;
-  border: none;
-  cursor: pointer;
-}

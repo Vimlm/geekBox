@@ -1,7 +1,14 @@
 /* Imports Globais */
 @import url(../css/global/global.css);
-@import url(../css/utils/cor.css);
+
+/* Imports Componentes */
 @import url(../css/components/componentes.css);
+@import url(../css/components/header.css);
+@import url(../css/components/footer.css);
 
+/* Imports Utils */
+@import url(../css/utils/cor.css);
+@import url(../css/utils/fontes.css);
 
+/* Imports Páginas */
 @import url(../css/pages/login.css);
