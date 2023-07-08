@@ -1,1 +1,37 @@
 /* Header */
+.header{
+  background-color: #5FED7D;
+  display: flex;
+  height: 96px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+} 
+.logo,
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu{
+  gap: 40px;
+}
+.logo{
+  gap: 10px;
+}
+.logo span{
+  text-transform: uppercase;
+  font-size: 44px;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 56px;  
+  background-color: #5FED7D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+font-size: 14px;
+}
