@@ -1,16 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Flex:wght@400;700&display=swap");
 
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
   font-family: "Roboto Flex", sans-serif;
+  background-image: url(../utils/images/background.jpg);
 }
 
 * {
@@ -18,10 +12,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-texto);
-}
-
-body {
-  background-image: url(../utils/images/background.jpg);
 }
 
 .container-home {
@@ -39,17 +29,16 @@ body {
   color: #35f22e;
   font-size: 4rem;
 }
-
 .textos-home > p {
   color: white;
   font-family: "Roboto Flex", sans-serif;
   font-size: 2.6rem;
   letter-spacing: 0.1rem;
 }
-
 .textos-home {
   padding: 40px 0px 0px 50px;
 }
+
 
 .nav-home {
   width: 100%;
@@ -60,18 +49,17 @@ body {
   height: 80px;
 }
 
-.menu-header {
-  padding: 2rem;
-}
+.menu-header{
+    text-decoration: none;
+    color: var(--cor-paragrafo);
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 2rem;
+  }
 
-.menu-home {
-  text-decoration: none;
-  color: black;
-  font-family: "Play", sans-serif;
-  font-weight: 700;
-  font-size: 1.3rem;
-}
 
+  
 .rodape {
   display: flex;
   justify-content: space-around;
@@ -87,3 +75,4 @@ body {
   font-size: 1.5rem;
   color: black;
 }
+
