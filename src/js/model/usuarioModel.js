@@ -1,10 +1,10 @@
-class Usuario {
+export class Usuario {
   constructor(nome, sobrenome, senha, cpf, cep, numero, complemento, logradouro, bairro, cidade, estado) {
     this._nomeCompleto = {
       nome,
       sobrenome
     }
-    this._senha = senha;
+    // this._senha = senha;
     this._cpf = cpf;
     this._endereco = {
       cep,
@@ -57,3 +57,5 @@ class Usuario {
     this._endereco = endereco;
   }
 }
+
+export default Usuario;
