@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/pages/cadastro.css">
-  <script src="src/js/script.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./src/js/script.js" defer></script>
   <title>Cadastro</title>
 </head>
 
 <body>
 
-  <section class="conteiner">
+  <section class="container">
     <img src="" alt="">
     <main>
       <form action="">
@@ -25,19 +25,31 @@
             </div>
 
             <div class="sobrenome">
-              <label for="sobrenome">sobrenome</label>
-              <input type="text" name="sobrenome" id="sobrenome">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
           </div>
 
           <div class="cpf">
             <label for="cpf">CPF</label>
-            <input type="text" name="cpf" id="cpf">
+            <input type="text" name="cpf" id="cpf" required>
           </div>
 
           <div class="email">
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
+          </div>
+
+          <div class="senha">
+            <div class="senha">
+              <label for="senha">Senha</label>
+              <input type="password" name="senha" id="senha" required>
+            </div>
+
+            <div class="confirma-senha">
+              <label for="confirma-senha">Confirme sua senha</label>
+              <input type="password" name="confirma-senha" id="confirma-senha" required>
+            </div>
           </div>
         </div>
 
@@ -47,34 +59,34 @@
           <div class="cep-numero">
             <div class="cep">
               <label for="cep">CEP</label>
-              <input type="text" name="cep" id="cep">
+              <input type="text" name="cep" id="cep" required>
             </div>
 
             <div class="numero">
               <label for="numero">Número</label>
-              <input type="text" name="numero" id="numero">
+              <input type="text" name="numero" id="numero" required>
             </div>
           </div>
 
           <div class="logradouro-bairro">
             <div class="logradouro">
               <label for="logradouro">Logradouro</label>
-              <input type="text" name="logradouro" id="logradouro">
+              <input type="text" name="logradouro" id="logradouro" required>
             </div>
 
             <div class="bairro">
               <label for="bairro">Bairro</label>
-              <input type="text" name="bairro" id="bairro">
+              <input type="text" name="bairro" id="bairro" required>
             </div>
 
             <div class="cidade-estado">
               <div class="cidade">
                 <label for="cidade">Cidade</label>
-                <input type="text" name="cidade" id="cidade">
+                <input type="text" name="cidade" id="cidade" required>
 
                 <div class="estado">
                   <label for="estado">Estado</label>
-                  <input type="text" name="estado" id="estado">
+                  <input type="text" name="estado" id="estado" required>
                 </div>
               </div>
             </div>
@@ -82,7 +94,7 @@
         </div>
         <div class="termo-botao">
           <div class="termo">
-            <input type="checkbox">
+            <input type="checkbox" required>
             <span>Li e concordo com os <a href="">termos e condições</a></span>
           </div>
           <div class="botao">
