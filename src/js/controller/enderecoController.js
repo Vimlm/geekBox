@@ -4,7 +4,6 @@ import { preencheEndereco } from '../view/enderecoView.js';
 function buscaEndereco() {
   const request = new XMLHttpRequest();
   const cep = document.getElementById('cep').value;
-  console.log(cep);
   const url = `https://viacep.com.br/ws/${cep}/json/`;
   request.open('GET', url);
   request.onload = () => {
