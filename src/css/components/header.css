@@ -3,32 +3,28 @@
   background-color: #5FED7D;
   display: flex;
   height: 96px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 150px;
 }
 
 .logo,
-.menu {
+.menu,
+.login {
   display: flex;
   align-items: center;
 }
 
-.menu {
-  gap: 40px;
+.menu,
+.login {
+  gap: 30px;
 }
 
 .logo {
-  gap: 10px;
+  gap: 16px;
+  margin-right: 100px;
 }
 
 .logo span {
   text-transform: uppercase;
   font-size: 44px;
-}
-
-.ladoDireito {
-  display: flex;
-  align-items: center;
-  gap: 60px;
 }
