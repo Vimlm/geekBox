@@ -1,0 +1,31 @@
+.termos {
+  background: #000;
+}
+
+.titulo-termos h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #35F22E;
+}
+
+.titulo-termos span {
+  color: #fff;
+}
+
+.termos-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.termos-conteudo h2 {
+  font-size: 24px;
+  color: #35F22E;
+}
+
+.termos-conteudo p {
+  font-size: 18px;
+  color: #fff;
+  padding-left: 29px;
+  margin-top: 20px;
+}
