@@ -1,5 +1,6 @@
 import { nome, sobrenome, cpf, email, cep, numero, logradouro, bairro, cidade, estado, botao } from "../view/cadastroView.js";
 import { cadastrarUsuario, buscarUsuario } from "../controller/usuarioController.js";
+import { usuarios } from "../model/usuariosModel.js";
 
 //Recolher Dados de Usuário
 function recolherDados() {
@@ -33,4 +34,5 @@ botao.addEventListener('click', (event) => {
   event.preventDefault();
   const dadosUsuario = recolherDados();
   cadastrarUsuario(dadosUsuario);
+  console.log(usuarios);
 });

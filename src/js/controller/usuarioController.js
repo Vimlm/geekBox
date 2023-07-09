@@ -6,6 +6,7 @@ function cadastrarUsuario(...usuarioObj) {
   const { nome, sobrenome, cpf, cep, numero, complemento, logradouro, bairro, cidade, estado } = usuarioObj[0];
   const usuario = new Usuario(nome, sobrenome, cpf, cep, numero, complemento, logradouro, bairro, cidade, estado);
   usuarios.push(usuario);
+  // console.log(usuarios);
  }
 
  function buscarUsuario() {

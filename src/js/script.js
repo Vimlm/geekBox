@@ -9,25 +9,25 @@ const enderecoView = document.createElement("script");
 const enderecoController = document.createElement("script");
 
 usuarioController.setAttribute("type", "module");
-usuarioController.setAttribute("src", "../../controller/usuarioController.js");
+usuarioController.setAttribute("src", "./src/js/controller/usuarioController.js");
 
 cadastroController.setAttribute("type", "module");
-cadastroController.setAttribute("src", "../../controller/cadastroController.js");
+cadastroController.setAttribute("src", "./src/js/controller/cadastroController.js");
 
 enderecoController.setAttribute("type", "module");
-enderecoController.setAttribute("src", "../../controller/enderecoController.js");
+enderecoController.setAttribute("src", "./src/js/controller/enderecoController.js");
 
 usuarioModel.setAttribute("type", "module");
-usuarioModel.setAttribute("src", "../../model/usuarioModel.js");
+usuarioModel.setAttribute("src", "./src/js/model/usuarioModel.js");
 
 usuariosModel.setAttribute("type", "module");
-usuariosModel.setAttribute("src", "../../model/usuariosModel.js");
+usuariosModel.setAttribute("src", "./src/js/model/usuariosModel.js");
 
 cadastroView.setAttribute("type", "module");
-cadastroView.setAttribute("src", "../../view/cadastroView.js");
+cadastroView.setAttribute("src", "./src/js/view/cadastroView.js");
 
 enderecoView.setAttribute("type", "module");
-enderecoView.setAttribute("src", "../enderecoView.js");
+enderecoView.setAttribute("src", "./src/js/view/enderecoView.js");
 
 head.appendChild(usuarioController);
 head.appendChild(cadastroController);
