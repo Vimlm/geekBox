@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Flex:wght@400;700&display=swap");
-
 
 .container-home {
   font-family: "Play", sans-serif;
@@ -8,19 +6,19 @@
 }
 
 .homem-com-caixa-home {
-  height: 31rem;
+  height: 496px;
 }
 
 .textos-home > h1 {
   font-family: "Play", sans-serif;
   color: #35f22e;
-  font-size: 4rem;
+  font-size: 64px;
 }
 .textos-home > p {
-  color: white;
+  color: #FFFFFF;
   font-family: "Roboto Flex", sans-serif;
-  font-size: 2.6rem;
-  letter-spacing: 0.1rem;
+  font-size: 40px;
+  letter-spacing: 1.5px;
 }
 .textos-home {
   padding: 40px 0px 0px 50px;
