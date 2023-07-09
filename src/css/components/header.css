@@ -1,1 +1,34 @@
 /* Header */
+.header {
+  background-color: #5FED7D;
+  display: flex;
+  height: 96px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 150px;
+}
+
+.logo,
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  gap: 40px;
+}
+
+.logo {
+  gap: 10px;
+}
+
+.logo span {
+  text-transform: uppercase;
+  font-size: 44px;
+}
+
+.ladoDireito {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
