@@ -2,68 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
 
 
-body {
-  margin: 0;
-  font-family: "Roboto Flex", sans-serif;
-  background-image: url(../utils/images/background.jpg);
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: var(--font-texto);
-}
-
-.nav-principal {
-  padding-left: 100px;
-  padding-right: 100px;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #35f22e;
-  height: 80px;
-}
-
-.nav-principal > a {
-  text-decoration: none;
-  color: var(--cor-paragrafo);
-  font-family: "Play", sans-serif;
-  font-weight: 700;
-  font-size: 1.3rem;
-}
-
-.menu-login {
-  text-decoration: none;
-  font-family: "Play", sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-}
-
-.logo-header {
-  padding: 200px;
-}
-
-.menu-header:hover {
-  transform: scale(1.05);
-  color: var(--cor-destaque);
-  transition: 0.3s;
-}
-
-#registre-se {
-  text-decoration: none;
-  background-color: black;
-  color: white;
-  padding: 6px;
-  border-radius: 6px;
-}
-
-#login {
-  background: none;
-  border: none;
-}
-
 .container-pag-inicial {
   display: flex;
   margin: 100px;
@@ -96,6 +34,7 @@ body {
   font-family: "Play", sans-serif;
   font-size: 2.8rem;
   font-weight: 300;
+  border: none;
 }
 
 .produtos-pag-inicial {
@@ -113,20 +52,4 @@ body {
 }
 .logos-pag-inicial {
   height: 3.5rem;
-}
-
-.rodape {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px;
-  margin-top: 90px;
-  background-color: #35f22e;
-}
-
-.rodape > p {
-  font-family: "Play", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  color: black;
 }
