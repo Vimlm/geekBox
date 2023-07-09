@@ -1,12 +1,8 @@
 
-.container-home {
+.content-home {
   font-family: "Play", sans-serif;
   margin: 100px;
   display: flex;
-}
-
-.homem-com-caixa-home {
-  height: 496px;
 }
 
 .textos-home > h1 {
