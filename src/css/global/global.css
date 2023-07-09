@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: 'Roboto Flex', sans-serif;
   color: var(--cor-b);
+  background-image: url(/src/img/background.jpg);
 }
 
 img {
