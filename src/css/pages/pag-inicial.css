@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Flex:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: "Roboto Flex", sans-serif;
+  background-image: url(../utils/images/background.jpg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-texto);
+}
+
+.nav-principal {
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #35f22e;
+  height: 80px;
+}
+
+.nav-principal > a {
+  text-decoration: none;
+  color: var(--cor-paragrafo);
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.menu-login {
+  text-decoration: none;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.logo-header {
+  padding: 200px;
+}
+
+.menu-header:hover {
+  transform: scale(1.05);
+  color: var(--cor-destaque);
+  transition: 0.3s;
+}
+
+#registre-se {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+#login {
+  background: none;
+  border: none;
+}
+
+.container-pag-inicial {
+  display: flex;
+  margin: 100px;
+}
+.textos-pag-inicial {
+  width: 60%;
+  height: fit-content;
+}
+
+.textos-pag-inicial > h1 {
+  color: #35f22e;
+  font-size: 5rem;
+  font-weight: 300;
+  font-family: "Play", sans-serif;
+}
+
+.textos-pag-inicial > p  {
+  color: aliceblue;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 2.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.botao-assine-ja {
+  text-decoration: none;
+  background-color: #35f22e;
+  color: black;
+  padding: 6px 70px 6px 70px;
+  border-radius: 4px;
+  font-family: "Play", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 300;
+}
+
+.produtos-pag-inicial {
+  width: 31rem;
+}
+
+.container-logos {
+  display: flex;
+  opacity: 0.3;
+  background-color: white;
+  border-radius: 6rem;
+  padding: 2rem 3.5rem 2rem 3.5rem;
+  justify-content: space-between;
+  margin: 100px;
+}
+.logos-pag-inicial {
+  height: 3.5rem;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  margin-top: 90px;
+  background-color: #35f22e;
+}
+
+.rodape > p {
+  font-family: "Play", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+}
