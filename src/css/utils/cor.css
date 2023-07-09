@@ -1,0 +1,20 @@
+:root {
+  --cor-b: #000000;
+  --cor-w: #ffffff;
+  --cor-p2: #f2a50c;
+  --cor-p1: #ffbb00;
+}
+
+/* Utilitários para HTML */
+.cor-b {
+  color: var(--cor-b);
+}
+.cor-w {
+  color: var(--cor-w);
+}
+.cor-p1 {
+  color: var(--cor-p1);
+}
+.cor-p2 {
+  color: var(--cor-p2);
+}
