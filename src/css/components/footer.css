@@ -1,5 +1,5 @@
 /* Footer */
-footer {
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -10,6 +10,6 @@ footer {
   align-items: center;
 }
 
-p {
+.footer p {
   font-size: 14px;
 }
