@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Flex:wght@400;700&display=swap');
+
+.font-tt {
+    font: 400 1.6rem/1.2 'Play', sans-serif;
+}
+.font-tt-bold {
+    font: 700 2rem/1.2 'Play', sans-serif;
+}
+.font-rr {
+    font: 400 1.6rem/1.2 'Roboto Flex', sans-serif;
+}
+.font-rr-light {
+    font: 300 1.6rem/1.2 'Roboto Flex', sans-serif;
+}
+.font-rr-bold {
+    font: 700 1.6rem/1.2 'Roboto Flex', sans-serif;
+}
