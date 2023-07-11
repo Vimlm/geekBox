@@ -1,30 +1,36 @@
 .box-form {
   display: flex;
-  flex-direction: column;   
+  flex-direction: column;
   place-items: center;
   padding: 20px;
 }
+
 .form {
   display: flex;
   flex-direction: column;
   width: 460px;
 }
+
 .email,
 .senha {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 .entrada-dados input {
   padding: 8px;
 }
-.entrada-dados .email {  
+
+.entrada-dados .email {
   margin-bottom: 1.5rem;
 }
+
 .botoes {
   display: flex;
   justify-content: space-between;
 }
+
 .botoes button {
   background: var(--cor-b);
   color: var(--cor-w);
@@ -33,6 +39,7 @@
   border-radius: 4px;
   width: 48%;
 }
+
 .form a {
   width: 100%;
   display: inline-block;
