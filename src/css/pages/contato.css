@@ -1,0 +1,20 @@
+.contato {
+  display: flex;
+  text-align: center;
+  gap: 0 30px;
+}
+
+.contato div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contato div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contato div img:nth-child(3) {
+  width: 25%;
+}
