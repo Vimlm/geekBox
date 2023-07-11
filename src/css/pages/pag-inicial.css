@@ -5,37 +5,37 @@
 }
 .textos-pag-inicial {
   width: 60%;
-  height: fit-content;
 }
 
 .textos-pag-inicial > h1 {
   color: #35f22e;
-  font-size: 5rem;
+  font-size: 96px;
   font-weight: 300;
   font-family: "Play", sans-serif;
 }
 
 .textos-pag-inicial > p  {
-  color: aliceblue;
+  color: #ffffff;
   font-family: "Roboto Flex", sans-serif;
-  font-size: 2.6rem;
-  letter-spacing: 0.1rem;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  padding: 20px 0px 20px;
 }
 
 
 .produtos-pag-inicial {
-  width: 31rem;
+  width: 496px;
 }
 
 .container-logos {
   display: flex;
   opacity: 0.3;
-  background-color: white;
-  border-radius: 6rem;
-  padding: 2rem 3.5rem 2rem 3.5rem;
+  background-color: #ffffff;
+  border-radius: 95px;
+  padding: 35px 55px 35px 55px;
   justify-content: space-between;
   margin: 100px;
 }
 .logos-pag-inicial {
-  height: 3.5rem;
+  height: 55px;
 }
