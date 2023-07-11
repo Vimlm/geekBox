@@ -1,0 +1,21 @@
+
+.content-home {
+  font-family: "Play", sans-serif;
+  margin: 100px;
+  display: flex;
+}
+
+.textos-home > h1 {
+  font-family: "Play", sans-serif;
+  color: #35f22e;
+  font-size: 96px;
+}
+.textos-home > p {
+  color: #ffffff;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+.textos-home {
+  padding: 40px 0px 0px 50px;
+}

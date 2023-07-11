@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: greenyellow;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 80vh;
+    padding: 50px;
+    margin: 0 30px;
+}
+
+.cad-formulario {
+    padding: 20px;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.cad-nome,
+.cad-sobrenome,
+.cad-senha,
+.cad-cpf,
+.cad-email,
+.confirma-senha,
+.cad-cep,
+.cad-numero,
+.cad-logradouro,
+.cad-bairro,
+.cad-cidade,
+.cad-estado {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-pessoais,
+.dados-residenciais {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-completo,
+.senha-confirma,
+.cep-numero,
+.cidade-estado,
+.logradouro-bairro {
+    display: flex;
+    justify-content: space-between;
+}
