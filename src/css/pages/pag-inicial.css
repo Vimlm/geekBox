@@ -20,6 +20,7 @@
   font-family: "Roboto Flex", sans-serif;
   font-size: 40px;
   letter-spacing: 1.5px;
+  padding: 20px;
 }
 
 
@@ -31,7 +32,7 @@
   display: flex;
   opacity: 0.3;
   background-color: #ffffff;
-  border-radius: 6rem;
+  border-radius: 96px;
   padding: 35px 55px 35px 55px;
   justify-content: space-between;
   margin: 100px;
