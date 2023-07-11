@@ -1,1 +1,18 @@
 /* Botões */
+.botao {
+  border: 1px solid whitesmoke;
+  padding: 12px 24px;
+  border-radius: 4px;
+  width: 48%;
+  font-size: 20px !important;
+}
+
+.botoes button:nth-child(1) {
+  background: #35F22E;
+
+}
+
+.botoes button:nth-child(2) {
+  background: #121212;
+  color: #fff;
+}

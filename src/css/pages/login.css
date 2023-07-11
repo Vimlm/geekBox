@@ -30,16 +30,6 @@
   display: flex;
   justify-content: space-between;
 }
-
-.botoes button {
-  background: var(--cor-b);
-  color: var(--cor-w);
-  border: 1px solid whitesmoke;
-  padding: 12px 24px;
-  border-radius: 4px;
-  width: 48%;
-}
-
 .form a {
   width: 100%;
   display: inline-block;
