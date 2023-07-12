@@ -5,17 +5,13 @@ export class Usuario {
       sobrenome
     }
     this._cpf = cpf;
-    this.email = email,
+    this._email = email,
     this._senha = senha,
     this._endereco = {
       cep,
       logradouro,
-<<<<<<< HEAD
-      // complemento,
-=======
       numero,
-      complemento,
->>>>>>> parent of f9f043b (feat: :sparkles: Cadastro usuário)
+      // complemento,
       bairro,
       cidade,
       estado,
