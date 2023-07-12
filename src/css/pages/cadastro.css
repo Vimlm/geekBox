@@ -16,19 +16,7 @@
     flex-direction: column;
 }
 
-.cad-nome,
-.cad-sobrenome,
-.cad-senha,
-.cad-cpf,
-.cad-email,
-.confirma-senha,
-.cad-cep,
-.cad-numero,
-.cad-logradouro,
-.cad-complemento,
-.cad-bairro,
-.cad-cidade,
-.cad-estado {
+.cad-flex {
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -53,7 +41,7 @@
 .cad-span,
 .termo {
     padding: 10px;
-    color: bisque;
+    color: white;
 }
 
 .cad-span a {
@@ -62,6 +50,7 @@
 
 input {
     padding: 12px;
+    accent-color: #35F22E;
 }
 
 input:focus {
