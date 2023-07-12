@@ -4,22 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/style.css">
+  <script src="src/js/scriptRecSenha.js"></script>
+  <!-- <script src="src/js/script.js"></script> -->
   <title>Esqueceu sua senha?</title>
 </head>
 <body>
-  <section class="container box-form">
-    <h1>Esqueceu sua senha?</h1>
-    <form class="form" action="">
-      <div class="entrada-dados">
-        <div class="email">
-          <label for="email">Email</label>
-          <input type="email" required placeholder="Digite seu email">
+  <header class="header">
+    <nav class="font-tt-bold ">
+      <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Planos</a></li>
+        <li><a href="">Contatos </a></li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <img src="./src/img/imagem logo.svg" alt="">
+      <span class="font-tt-bold">GeekBoox</span>
+    </div>
+    <nav class="font-tt-bold ">
+      <ul class="login">
+        <li><a href="">Login</a></li>
+        <li><a href="">Registre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="container box-form box-rec-senha">
+    <form action="" class="form-rec-senha">
+      <h1 class="font-tt-bold">Esqueceu sua senha?</h1>
+      <form class="form" action="">
+        <div class="entrada-dados">
+          <div class="email">
+            <label for="email">Email</label>
+            <input type="email" id="rec-email" required placeholder="Digite seu email">
+          </div>
+  
+        <div class="botoes btn-rec-senha">
+          <button class="botao" id="recBotao">Enviar</button>
         </div>
-
-      <div class="botoes btn-rec-senha">
-        <button>Enviar</button>
-      </div>
+    </form>
     </form>
   </section>
+
+  <footer class="font-tt-bold footer">
+    <p>GeekBoox. Alguns direitos reservados®</p>
+  </footer>
 </body>
 </html>
