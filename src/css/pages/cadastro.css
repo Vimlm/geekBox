@@ -11,27 +11,16 @@
 }
 
 .cad-formulario {
-    padding: 0 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.cad-nome,
-.cad-sobrenome,
-.cad-senha,
-.cad-cpf,
-.cad-email,
-.confirma-senha,
-.cad-cep,
-.cad-numero,
-.cad-logradouro,
-.cad-complemento,
-.cad-bairro,
-.cad-cidade,
-.cad-estado {
+.cad-flex {
     display: flex;
     flex-direction: column;
     padding: 5px;
+    color: #35F22E;
 }
 
 .dados-pessoais,
@@ -50,6 +39,24 @@
 }
 
 .cad-span,
-.termo-botao {
+.termo {
     padding: 10px;
+    color: white;
+}
+
+.cad-span a {
+    text-decoration: underline;
+}
+
+input {
+    padding: 12px;
+    accent-color: #35F22E;
+}
+
+input:focus {
+    outline: 2px solid #35F22E;
+}
+
+.cad-botao {
+    background-color: #35F22E;
 }
