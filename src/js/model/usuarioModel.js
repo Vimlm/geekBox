@@ -9,8 +9,8 @@ export class Usuario {
     this._senha = senha,
     this._endereco = {
       cep,
-      logradouro,
       numero,
+      logradouro,
       complemento,
       bairro,
       cidade,
