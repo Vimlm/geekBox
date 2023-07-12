@@ -6,6 +6,11 @@
   height: 80vh;
 }
 
+.box-form h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+}
+
 .form {
   display: flex;
   flex-direction: column;
