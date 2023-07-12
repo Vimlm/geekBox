@@ -1,5 +1,5 @@
 export class Usuario {
-  constructor(nome, sobrenome, cpf, email, senha, cep, logradouro, numero, complemento, bairro, cidade, estado) {
+  constructor(nome, sobrenome, cpf, email, senha, cep, logradouro, numero, /*complemento,*/ bairro, cidade, estado) {
     this._nomeCompleto = {
       nome,
       sobrenome
@@ -9,9 +9,13 @@ export class Usuario {
     this._senha = senha,
     this._endereco = {
       cep,
-      numero,
       logradouro,
+<<<<<<< HEAD
+      // complemento,
+=======
+      numero,
       complemento,
+>>>>>>> parent of f9f043b (feat: :sparkles: Cadastro usuário)
       bairro,
       cidade,
       estado,

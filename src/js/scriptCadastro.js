@@ -1,4 +1,4 @@
-import { head } from "./script.js";
+const head = document.querySelector('head');
 
 const cadastroController = document.createElement("script");
 const cadastroView = document.createElement("script");
