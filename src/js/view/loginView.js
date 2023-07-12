@@ -1,5 +1,6 @@
 const emailLogin = document.getElementById('email');
 const senhaLogin = document.getElementById('senha');
-const botaoRegistreSe = document.querySelector('.botaoRegistre');
+const btnLogin = document.getElementById('btn-login');
+const btnRegistre = document.getElementById('btn-registre');
 
-export { emailLogin, senhaLogin, botaoRegistreSe }
+export { emailLogin, senhaLogin, btnLogin, btnRegistre }

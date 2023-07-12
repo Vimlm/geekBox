@@ -6,8 +6,6 @@ botaoRegistreSe.addEventListener('click', event => {
   event.preventDefault();
 });
 
-let chancesLogin = 0;
-
 if(chancesLogin == 3) {
   console.log('Você atingiu o número máximo de tentativas para login, favor recuperar a sua senha.');
 } else {
