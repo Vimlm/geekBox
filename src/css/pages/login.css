@@ -3,6 +3,7 @@
   flex-direction: column;
   place-items: center;
   padding: 20px;
+  height: 80vh;
 }
 
 .form {
@@ -30,6 +31,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .form a {
   width: 100%;
   display: inline-block;
