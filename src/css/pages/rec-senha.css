@@ -1,3 +1,14 @@
+.box-rec-senha {
+  height: 80vh;
+}
+.form-rec-senha {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box-rec-senha h1 {
+  text-transform: uppercase;
+}
 .btn-rec-senha {
   justify-content: center;
 }

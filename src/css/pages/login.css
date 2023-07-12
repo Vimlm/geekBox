@@ -3,6 +3,12 @@
   flex-direction: column;
   place-items: center;
   padding: 20px;
+  height: 80vh;
+}
+
+.box-form h1 {
+  text-transform: uppercase;
+  font-size: 48px;
 }
 
 .form {
@@ -30,6 +36,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .form a {
   width: 100%;
   display: inline-block;
