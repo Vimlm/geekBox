@@ -1,21 +1,28 @@
-import { botaoRegistreSe } from "../view/loginView.js";
-import { emailLogin, senhaLogin } from "../view/loginView.js";
-import { buscaEmail, buscaSenha } from "../model/usuariosModel.js";
+import { emailLogin, senhaLogin, btnLogin, btnRegistre } from '../view/loginView.js'
 
-botaoRegistreSe.addEventListener('click', event => {
+btnLogin.addEventListener('click', event => {
   event.preventDefault();
+  const usuario = JSON.parse(localStorage.getItem(email.value));
+
+  if(usuario) {
+    const logEmail = email.value;
+    const logSenha = usuario._senha;
+    if(logEmail == emailLogin.value && logSenha == senhaLogin.value) {
+      Swal.fire('Login realizado com sucesso, você será redirecionado.');
+      setTimeout(() => {
+        window.location.href = 'http://127.0.0.1:5500/home.html';
+      }, 2000);
+    } else {
+        Swal.fire('Usuário e senha não conferem.');
+    }
+  } else {
+      Swal.fire('Email não encontrado.');
+  }
 });
 
-let chancesLogin = 0;
-
-if(chancesLogin == 3) {
-  console.log('Você atingiu o número máximo de tentativas para login, favor recuperar a sua senha.');
-} else {
-  if(buscaEmail(emailLogin.value) && buscaSenha(senhaLogin.value)) {
-    console.log('Entrou no sistema.');
-    chancesLogin = 0;
-  } else {
-    chancesLogin += 1;
-    console.log('Senha e email não conferem.');
-  }
-}
+btnRegistre.addEventListener('click', event => {
+  event.preventDefault();
+  setTimeout(() => {
+    window.location.href = 'http://127.0.0.1:5500/cadastro.html';
+  }, 200);
+})

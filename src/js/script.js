@@ -1,34 +1,23 @@
 const head = document.querySelector('head');
 
+//Controller
 const usuarioController = document.createElement("script");
-const enderecoController = document.createElement("script");
 
+//Model
 const usuarioModel = document.createElement("script");
-const usuariosModel = document.createElement("script");
 
-const enderecoView = document.createElement("script");
-
+//Controller
 usuarioController.setAttribute("type", "module");
 usuarioController.setAttribute("src", "./src/js/controller/usuarioController.js");
 
-
-enderecoController.setAttribute("type", "module");
-enderecoController.setAttribute("src", "./src/js/controller/enderecoController.js");
-
-
+//Model
 usuarioModel.setAttribute("type", "module");
 usuarioModel.setAttribute("src", "./src/js/model/usuarioModel.js");
 
-usuariosModel.setAttribute("type", "module");
-usuariosModel.setAttribute("src", "./src/js/model/usuariosModel.js");
-
-enderecoView.setAttribute("type", "module");
-enderecoView.setAttribute("src", "./src/js/view/enderecoView.js");
-
+//Controller
 head.appendChild(usuarioController);
-head.appendChild(enderecoController);
 
+//Model
 head.appendChild(usuarioModel);
-head.appendChild(usuariosModel);
 
-head.appendChild(enderecoView);
+export { head }
