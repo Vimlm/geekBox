@@ -5,6 +5,7 @@
 @import url(../css/components/componentes.css);
 @import url(../css/components/header.css);
 @import url(../css/components/footer.css);
+@import url(../css/components/background.css);
 
 /* Imports Utils */
 @import url(../css/utils/cor.css);
