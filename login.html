@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/style.css">
+  <script type='module' src="./src/js/script.js"></script>
+  <script type='module' src="./src/js/scriptLogin.js"></script>
   <title>Faça Login 🔐</title>
 </head>
 
@@ -24,30 +26,30 @@
     <nav class="font-tt-bold ">
       <ul class="login">
         <li><a href="">Login</a></li>
-    <li><a href="">Registre-se</a></li>
-  </ul>
-</nav>
+        <li><a href="">Registre-se</a></li>
+      </ul>
+    </nav>
   </header>
   <section class="container box-form">
-    <h1>Login</h1>
+    <h1 class="font-tt-bold">Login</h1>
     <form class="form" action="">
       <div class="entrada-dados">
         <div class="email">
           <label for="email">Email</label>
-          <input type="email" required placeholder="Digite seu email">
+          <input type="email" id="email" required placeholder="Digite seu email">
         </div>
 
         <div class="senha">
           <label for="senha">Senha</label>
-          <input type="email" required placeholder="Digite seu email">
+          <input type="password" id="senha" required placeholder="Digite sua senha">
         </div>
-        <a href="#">esqueceu a senha?</a>
+        <a href="rec-senha.html">esqueceu a senha?</a>
       </div>
 
 
       <div class="botoes">
-        <button>Enviar</button>
-        <button>Registrar-se</button>
+        <button id="btn-login" class="botao font-tt-bold">Login</button>
+        <button id="btn-registre" class="botao font-tt-bold">Registrar-se</button>
       </div>
     </form>
   </section>
