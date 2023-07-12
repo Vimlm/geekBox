@@ -1,4 +1,5 @@
 .contato {
+  height: 80vh;
   display: flex;
   text-align: center;
   gap: 0 30px;
