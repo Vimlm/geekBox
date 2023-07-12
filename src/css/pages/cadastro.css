@@ -1,9 +1,4 @@
-body {
-    background-color: black;
-    color: greenyellow;
-}
-
-.container {
+.cad-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,8 +11,7 @@ body {
 }
 
 .cad-formulario {
-    padding: 20px;
-    background: blue;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
 }
@@ -31,11 +25,13 @@ body {
 .cad-cep,
 .cad-numero,
 .cad-logradouro,
+.cad-complemento,
 .cad-bairro,
 .cad-cidade,
 .cad-estado {
     display: flex;
     flex-direction: column;
+    padding: 5px;
 }
 
 .dados-pessoais,
@@ -48,7 +44,14 @@ body {
 .senha-confirma,
 .cep-numero,
 .cidade-estado,
-.logradouro-bairro {
+.complemento-bairro {
     display: flex;
     justify-content: space-between;
 }
+
+.cad-span,
+.termo-botao {
+    padding: 10px;
+}
+
+.termo-botao {}
