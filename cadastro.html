@@ -36,82 +36,82 @@
     <main>
       <form class="cad-formulario" action="">
         <div class="dados-pessoais">
-          <span class="cad-span">Dados Pessoais</span>
+          <span class="cad-span font-poppins">Dados Pessoais</span>
           <div class="nome-completo">
 
-            <div class="cad-nome">
+            <div class="cad-flex font-poppins">
               <label for="nome">*Nome</label>
               <input type="text" name="nome" id="nome" required>
             </div>
 
-            <div class="cad-sobrenome">
+            <div class="cad-flex font-poppins">
               <label for="sobrenome">*Sobrenome</label>
               <input type="text" name="sobrenome" id="sobrenome" required>
             </div>
           </div>
 
-          <div class="cad-cpf">
+          <div class="cad-flex font-poppins">
             <label for="cpf">*CPF</label>
             <input type="text" name="cpf" id="cpf" required>
           </div>
 
-          <div class="cad-email">
+          <div class="cad-flex font-poppins">
             <label for="email">*E-mail</label>
             <input type="email" name="email" id="email" required>
           </div>
 
           <div class="senha-confirma">
-            <div class="cad-senha">
+            <div class="cad-flex font-poppins">
               <label for="senha">*Senha</label>
               <input type="password" name="senha" id="senha" required>
             </div>
 
-            <div class="confirma-senha">
+            <div class="cad-flex font-poppins">
               <label for="confirma-senha">*Confirme sua senha</label>
               <input type="password" name="confirma-senha" id="confirma-senha" required>
             </div>
           </div>
         </div>
 
-        <span class="cad-span">Dados Residenciais</span>
+        <span class="cad-span font-poppins">Dados Residenciais</span>
         <div class="dados-residenciais">
 
           <div class="cep-numero">
-            <div class="cad-cep">
+            <div class="cad-flex font-poppins">
               <label for="cep">*CEP</label>
               <input type="text" name="cep" id="cep" required>
             </div>
 
-            <div class="cad-numero">
+            <div class="cad-flex font-poppins">
               <label for="numero">*Número</label>
               <input type="text" name="numero" id="numero" required>
             </div>
           </div>
 
-          <div class="cad-logradouro">
+          <div class="cad-flex font-poppins">
             <label for="logradouro">*Logradouro</label>
             <input type="text" name="logradouro" id="logradouro" required>
           </div>
 
           <div class="complemento-bairro">
-            <div class="cad-complemento">
+            <div class="cad-flex font-poppins">
               <label for="complemento">Complemento</label>
               <input type="text" name="complemento" id="complemento">
             </div>
 
-            <div class="cad-bairro">
+            <div class="cad-flex font-poppins">
               <label for="bairro">*Bairro</label>
               <input type="text" name="bairro" id="bairro" required>
             </div>
           </div>
 
           <div class="cidade-estado">
-            <div class="cad-cidade">
+            <div class="cad-flex font-poppins">
               <label for="cidade">*Cidade</label>
               <input type="text" name="cidade" id="cidade" required>
             </div>
 
-            <div class="cad-estado">
+            <div class="cad-flex font-poppins">
               <label for="estado">*Estado</label>
               <input type="text" name="estado" id="estado" required>
             </div>
@@ -120,11 +120,11 @@
 
         <div class="termo-botao">
           <div class="termo">
-            <input type="checkbox" required>
-            <span>Li e concordo com os <a href="">termos e condições</a></span>
+            <input type="checkbox" required checked>
+            <span class="cad-span font-poppins">Li e concordo com os <a href="./termos.html">termos e condições</a></span>
           </div>
-          <div class="botao">
-            <button>Registrar</button>
+          <div>
+            <button class="botao cad-botao font-tt-bold">Registrar</button>
           </div>
         </div>
       </form>
