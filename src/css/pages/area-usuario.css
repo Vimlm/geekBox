@@ -1,0 +1,59 @@
+.area-usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #fff;
+  border-radius: 4px;
+  margin: 40px auto;
+  text-align: center;
+  color: #000;
+  gap: 40px;
+  padding: 40px;
+}
+
+.area-usuario h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.area-usuario h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+
+.pedidos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+
+.pedido {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cabecalho-pedidos,
+.detalhe-pedidos {
+  width: 50%;
+}
+
+.cabecalho-pedidos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-pedido {
+  font-size: 36px;
+  width: 50%;
+  text-transform: uppercase;
+  background: #35F22E;
+  border: 1px solid #000;
+}
