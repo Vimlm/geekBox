@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
+<head class="head">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./src/css/style.css">
-  <script type='module' src="./src/js/script.js"></script>
-  <script type='module' src="./src/js/scriptLogin.js"></script>
+  <script type='module' src="./src/js/script.js" defer></script>
+  <script type="module" src="./src/js/scriptLogin.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10" defer></script>
   <title>Faça Login 🔐</title>
 </head>
 
@@ -32,7 +33,7 @@
   </header>
   <section class="container box-form">
     <h1 class="font-tt-bold">Login</h1>
-    <form class="form" action="">
+    <form class="form">
       <div class="entrada-dados">
         <div class="email">
           <label for="email">Email</label>
