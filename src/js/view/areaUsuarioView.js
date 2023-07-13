@@ -1,19 +1,18 @@
-// Obtém a fila de pedidos do localStorage ou cria uma nova fila vazia
-const filaPedidos = JSON.parse(localStorage.getItem('filaPedidos')) || [];
+const detalhePedidos = document.getElementById('detalhePedidos');
+const btnAtualizar = document.getElementById('btn-atualizar');
+const btnRecebido = document.getElementById('btn-recebido');
 
-// Função para salvar a fila de pedidos no localStorage
+let filaPedidos = JSON.parse(localStorage.getItem('filaPedidos')) || [];
+
 function salvarFilaPedidos() {
   localStorage.setItem('filaPedidos', JSON.stringify(filaPedidos));
 }
 
-// Função para adicionar um novo pedido à fila
-function adicionarPedido(pedido, valor, entrega) {
-  filaPedidos.push({ pedido, valor, entrega });
-  atualizarDetalhePedidos();
+export function adicionarPedido(pedido, valor, entrega, tamanho) {
+  filaPedidos.push({ pedido, valor, entrega, tamanho });
   salvarFilaPedidos();
 }
 
-// Função para remover o primeiro pedido da fila
 function removerPedido() {
   if (filaPedidos.length > 0) {
     filaPedidos.shift();
@@ -22,13 +21,12 @@ function removerPedido() {
   }
 }
 
-// Função para atualizar o conteúdo do elemento detalhePedidos
 function atualizarDetalhePedidos() {
   detalhePedidos.innerHTML = '';
 
   for (const pedido of filaPedidos) {
     const pedidoElement = document.createElement('div');
-    pedidoElement.classList.add('pedido');
+    pedidoElement.classList.add('item-pedido');
     pedidoElement.innerHTML = `
       <span>${pedido.pedido}</span>
       <span>${pedido.valor}</span>
@@ -38,20 +36,17 @@ function atualizarDetalhePedidos() {
   }
 }
 
-// Adicionar evento de clique ao botão "Adicionar Pedido"
-btnPedido.addEventListener('click', function () {
-  const novoPedido = '120';
-  const valorPedido = 'R$59,90';
-  const previsaoEntrega = '01/08/2023';
+document.addEventListener('DOMContentLoaded', () => {
+  atualizarDetalhePedidos();
 
-  adicionarPedido(novoPedido, valorPedido, previsaoEntrega);
-});
+  btnRecebido.addEventListener('click', event => {
+    event.preventDefault();
+    Swal.fire('O pedido foi recebido.');
+    removerPedido();
+  });
 
-// Adicionar evento de clique ao botão "Pedido Recebido"
-detalhePedidos.addEventListener('click', function (event) {
-  const pedidoRecebido = event.target.closest('.pedido');
-  if (pedidoRecebido) {
-    pedidoRecebido.remove();
-    salvarFilaPedidos();
-  }
+  btnAtualizar.addEventListener('click', event => {
+    event.preventDefault();
+    atualizarDetalhePedidos();
+  });
 });

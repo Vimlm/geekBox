@@ -2,58 +2,60 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <title>Página Inicial</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Página Inicial</title>
 </head>
 
 <body>
+  <header class="header cor-b">
+    <nav class="font-tt-bold ">
+      <ul class="menu">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./src/pages/planos.html">Planos</a></li>
+        <li><a href="./src/pages/contato.html">Contatos </a></li>
+      </ul>
+    </nav>
 
-    <header class="header">
-        <div class="logo">
-          <img src="./src/img/imagem logo.svg" alt="">
-          <span class="font-tt-bold">GeekBox</span>
-        </div>
-        <nav class="font-tt-bold ">
-          <ul class="menu">
-            <li><a href="./home.html">Home</a></li>
-            <li><a href="./planos.html">Planos</a></li>
-            <li><a href="./contato.html">Contatos </a></li>
-          </ul>
-        </nav>
-      </header>
+    <div class="logo">
+      <img src="./src/img/logo-img/logo.svg" alt="logo geekbox">
+      <span class="font-tt-bold">GeekBox</span>
+    </div>
 
+    <nav class="font-tt-bold ">
+      <ul class="login">
+        <li><a href="./src/pages/login.html">Login</a></li>
+        <li><a href="./src/pages/cadastro.html" class="botao botao-preto font-tt-bold">Registre-se</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="content-pag-inicial">
-        <div class="textos-pag-inicial">
-            <h1>CONHEÇA NOSSA CAIXINHA!</h1>
-            
-            <p>Um pedacinho do universo geek para a sua casa, todo mês dentro de uma caixa cheia de surpresas!</p>
-            
-            <a href="./planos.html"><button class= "botao" > ASSINE JÁ!</button></a>
-        </div>
-        <div>
-            <img class="produtos-pag-inicial" src="./src/img/imagens-pag-inicial/produtos-pag-inicial.png" alt="camiseta, caneca, funko e copo">
-        </div>
+  <section class="container container-pag-inicial">
+    <div class="content-pag-inicial">
+      <div class="textos-pag-inicial">
+        <h1 class="font-tt-bold">conheça nossa caixinha!</h1>
+  
+        <p class="font-rr">Um pedacinho do universo geek para a sua casa, todo mês dentro de uma caixa cheia de surpresas!</p>
+  
+        <a href="./src/pages/planos.html"><button class="botao botao-amarelo font-tt-bold">Conheça as caixas</button></a>
+      </div>
+      <div>
+        <img class="produtos-pag-inicial" src="src/img/pagina-inicial/produtos-pag-inicial.png" alt="camiseta, caneca, funko e copo">
+      </div>
+    </div>
+    <div class="container-logos">
+      <img class="logos-pag-inicial" src="./src/img/pagina-inicial/logos/hp-logo.png" alt="logo harry potter">
+      <img class="logos-pag-inicial" src="./src/img/pagina-inicial/logos/funko-logo.png" alt="logo funko">
+      <img class="logos-pag-inicial" src="./src/img/pagina-inicial/logos/marvel-logo.png" alt="logo marvel">
+      <img class="logos-pag-inicial" src="./src/img/pagina-inicial/logos/logo-lotr.png.png" alt="logo lord of the rings">
+      <img class="logos-pag-inicial" src="./src/img/pagina-inicial/logos/star-wars-logo.png" alt="logo star wars">
+    </div>
+  </section>
 
-    </section>
-
-    <section>
-        <div class="container-logos">
-
-            <img class="logos-pag-inicial" src="./src/img/imagens-pag-inicial/logos/hp-logo.png" alt="logo harry potter">
-            <img class="logos-pag-inicial" src="./src/img/imagens-pag-inicial/logos/funko-logo.png" alt="logo funko">
-            <img class="logos-pag-inicial" src="./src/img/imagens-pag-inicial/logos/marvel-logo.png" alt="logo marvel">
-            <img class="logos-pag-inicial" src="./src/img/imagens-pag-inicial/logos/logo-lotr.png.png" alt="logo lord of the rings">
-            <img class="logos-pag-inicial" src="./src/img/imagens-pag-inicial/logos/star-wars-logo.png" alt="logo star wars">
-
-        </div>
-    </section>
-
-    <footer class="font-tt-bold footer">
-        <p>GeekBox. Alguns direitos reservados®</p>
-      </footer>
+  <footer class="font-tt-bold footer">
+    <p>GeekBox. Alguns direitos reservados®</p>
+  </footer>
 </body>
 
 </html>

@@ -41,4 +41,12 @@ button {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  height: 84vh;
+}
+input {
+  padding: 6px 12px;
+  accent-color: #35f22e;
+}
+input:focus {
+  outline: 2px solid #35f22e;
 }

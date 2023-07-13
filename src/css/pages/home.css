@@ -1,21 +1,15 @@
 
 .content-home {
-  font-family: "Play", sans-serif;
-  margin: 100px;
   display: flex;
+  align-items: center;
+  gap: 60px;
 }
-
 .textos-home > h1 {
-  font-family: "Play", sans-serif;
+  text-transform: uppercase;
   color: #35f22e;
   font-size: 96px;
 }
 .textos-home > p {
-  color: #ffffff;
-  font-family: "Roboto Flex", sans-serif;
   font-size: 40px;
   letter-spacing: 1.5px;
-}
-.textos-home {
-  padding: 40px 0px 0px 50px;
 }

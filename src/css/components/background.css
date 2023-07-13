@@ -1,5 +1,5 @@
 body {
-    background-image: url(../../img/imagens-pag-inicial/background-img/background.png);
+    background-image: url(../../img/background-img/background.png);
     background-size: 300% 300%;
     height: 100vh;
     animation: gradiente 100s ease alternate infinite;

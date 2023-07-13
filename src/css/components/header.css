@@ -6,24 +6,33 @@
   justify-content: space-around;
   align-items: center;
 }
-
+.header-user a img {
+  width: 50px;
+}
+.header a {
+  transition: 0.3s ease-in-out;
+}
+.header a:hover {
+  color: #fff;
+}
+.header-user {
+  justify-content: space-evenly;
+  flex: 1;
+}
 .logo,
 .menu,
 .login {
   display: flex;
   align-items: center;
 }
-
 .menu,
 .login {
   gap: 30px;
 }
-
 .logo {
   gap: 16px;
   margin-right: 100px;
 }
-
 .logo span {
   text-transform: uppercase;
   font-size: 44px;

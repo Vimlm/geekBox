@@ -1,21 +1,27 @@
 .contato {
-  height: 80vh;
   display: flex;
+  align-items: center;
   text-align: center;
   gap: 0 30px;
 }
-
+.contato span {
+  font-size: 24px;
+}
 .contato div {
   display: flex;
   flex-direction: column;
 }
-
 .contato div {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-
 .contato div img:nth-child(3) {
   width: 25%;
+}
+.contato > div a img {
+  transition: 0.2s ease-in-out;
+}
+.contato > div a img:hover {
+  transform: scale(1.2);
 }

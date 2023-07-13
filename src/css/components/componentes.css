@@ -7,15 +7,24 @@
   text-transform: uppercase;
   font-size: 20px !important;
   text-transform: uppercase;
+  transition: 0.4s;
 }
-
-.botoes button:nth-child(1) {
+.botao:hover {
+  transform: scale(0.97);
+}
+.botao-amarelo {
   background: #35F22E;
-
 }
-
-.botoes button:nth-child(2),
-.login .botao{
+.botao-amarelo:hover {
+  background: #38dc32;
+}
+.botao-preto {
   background: #121212;
   color: #fff;
 }
+.botao-preto:hover {
+  background: #ffffff;
+  color: #000 !important;
+  border: 1px solid #000;
+}
+

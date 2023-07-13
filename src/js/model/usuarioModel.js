@@ -1,5 +1,5 @@
 export class Usuario {
-  constructor(nome, sobrenome, cpf, email, senha, cep, logradouro, numero, /*complemento,*/ bairro, cidade, estado) {
+  constructor(nome, sobrenome, cpf, email, senha, cep, logradouro, numero, complemento, bairro, cidade, estado) {
     this._nomeCompleto = {
       nome,
       sobrenome
@@ -11,7 +11,7 @@ export class Usuario {
       cep,
       logradouro,
       numero,
-      // complemento,
+      complemento,
       bairro,
       cidade,
       estado,

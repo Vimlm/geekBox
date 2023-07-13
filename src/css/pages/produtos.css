@@ -1,0 +1,21 @@
+.produtos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.produtos-container h1 {
+  text-transform: uppercase;
+  max-width: 24ch;
+  font-size: 64px;
+  margin-bottom: 60px;
+}
+.produtos {
+  display: flex;
+  gap: 40px;
+}
+.produtos button {
+  width: 100%;
+  margin-top: 20px;
+}
