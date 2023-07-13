@@ -1,37 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slide</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/view/slideShowView.js" defer></script>
+    <title>Página Inicial</title>
 </head>
+
 <body>
-    <!-- SLIDESHOW CONTAINER-->
+
+    <header class="header">
+        <div class="logo">
+          <img src="./src/img/imagem logo.svg" alt="">
+          <span class="font-tt-bold">GeekBox</span>
+        </div>
+        <nav class="font-tt-bold ">
+          <ul class="menu">
+            <li><a href="">Home</a></li>
+            <li><a href="">Planos</a></li>
+            <li><a href="">Contatos </a></li>
+          </ul>
+        </nav>
+      </header>
+
+
+    <section class="content-pag-inicial container">
+      
+      <!-- SLIDESHOW CONTAINER-->
 
 <div class="slideshow-container">
 
-    <!-- SELEÇÃO DE IMAGENS-->
-    <div class="slide">
-      <img src="1.jpg" alt="Slide 1">
-    </div>
+  <!-- SELEÇÃO DE IMAGENS-->
   
-    <div class="slide">
-      <img src="2.jpg" alt="Slide 2">
-    </div>
-  
-    <div class="slide">
-      <img src="3.jpg" alt="Slide 3">
-    </div>
-  
-    <!-- ADICIONAR OS SLIDES -->
-  
-    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  <div class="slide">
+    <img src="./src/img/planos/box-p.png" alt="Slide 1">
+  </div>
+
+  <div class="slide">
+    <img src="./src/img/planos/box-m.png" alt="Slide 2">
+  </div>
+
+  <div class="slide">
+    <img src="./src/img/planos/box-g.png" alt="Slide 3">
   </div>
 
 
-    <script src="slideshow.js"></script>
-</body>
-</html>
+  <!-- ADICIONAR OS SLIDES -->
 
+  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+  <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
+        <div class="textos-pag-planos">
+            <h2 class="titulo-plano">FEITA PARA O SEU TAMANHO !</h2>
+            
+            <p class="paragrafo-plano">Aqui você garantee seus itens misteriosos cuidadosamente selecionados, que somados valem mais do que o valor pago! 
+              São tês opções (P, M e G) para você escolher conforme suas necessidades :)!</p>
+            
+            <button class="botao"> ASSINE JÁ!</button>
+        </div>
+    
+
+    </section>
+
+    <footer class="font-tt-bold footer">
+        <p>GeekBox. Alguns direitos reservados®</p>
+      </footer>
+</body>
+
+</html>

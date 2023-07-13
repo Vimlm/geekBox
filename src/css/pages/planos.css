@@ -1,6 +1,6 @@
 .slideshow-container {
     position: relative;
-    width: 100%;
+    width: 100vh;
     overflow: hidden;
   }
   
@@ -30,3 +30,26 @@
   .next {
     right: 0;
   }
+  .textos-pag-planos > h2 {
+    color: #35f22e;
+     font-size: 40px;
+    font-weight: 300;
+    font-family: "Play", sans-serif;
+  }
+  
+  .textos-pag-planos > p  {
+    color: #ffffff;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 30px; 
+    letter-spacing: 1.5px;
+    padding: 20px 20px 20px 0px;
+    width: 40ch;
+  }
+  
+  .textos-pag-planos{
+    padding: 20px;
+  }
+
+  .
+
+  
