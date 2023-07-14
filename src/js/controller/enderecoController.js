@@ -10,7 +10,7 @@ function buscaEndereco() {
         if (request.status === 200) {
           const endereco = JSON.parse(request.responseText);
           if(endereco.erro) {
-            alert('CEP não encontrado');
+            Swal.fire('Cep não encontrado.');
             return;
           } else {
             preencheEndereco(endereco);
@@ -18,7 +18,7 @@ function buscaEndereco() {
         }
       }
   } else {
-    alert('Cep Inválido');
+    Swal.fire('Cep inválido.');
   }
   request.send();
 }

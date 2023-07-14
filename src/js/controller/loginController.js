@@ -10,7 +10,7 @@ btnLogin.addEventListener('click', event => {
     if(logEmail == emailLogin.value && logSenha == senhaLogin.value) {
       Swal.fire('Login realizado com sucesso, você será redirecionado.');
       setTimeout(() => {
-        window.location.href = 'http://127.0.0.1:5501/src/pages/home.html';
+        window.location.href = 'http://127.0.0.1:5500/src/pages/home.html';
       }, 2000);
     } else {
         Swal.fire('Usuário e senha não conferem.');
@@ -23,6 +23,6 @@ btnLogin.addEventListener('click', event => {
 btnRegistre.addEventListener('click', event => {
   event.preventDefault();
   setTimeout(() => {
-    window.location.href = 'http://127.0.0.1:5501/src/pages/cadastro.html';
+    window.location.href = 'http://127.0.0.1:5500/src/pages/cadastro.html';
   }, 200);
 })

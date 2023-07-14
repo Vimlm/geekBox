@@ -1,11 +1,11 @@
 import { nome, sobrenome, cpf, email, senha, confSenha ,cep, numero, complemento, logradouro, bairro, cidade, estado, botao, checkBox } from "../view/cadastroView.js";
-import { cadastrarUsuario } from "../controller/usuarioController.js";
+import { cadastrarUsuario, buscarUsuario } from "../controller/usuarioController.js";
 import Usuario from "../model/usuarioModel.js";
 
 botao.addEventListener('click', (event) => {
   event.preventDefault();
   const validaDados = validacao();
-  console.log(validaDados);
+
   if(validaDados) {
     const usuario = new Usuario(
       nome.value,
@@ -22,11 +22,15 @@ botao.addEventListener('click', (event) => {
       estado.value
     );
 
-    cadastrarUsuario(usuario._email ,JSON.stringify(usuario));
-    Swal.fire('Cadastro realizado com sucesso, você será redirecionado.');
-    setTimeout(() => {
-      window.location.href = 'http://127.0.0.1:5501/src/pages/login.html';
-    }, 2000);
+    try {
+        cadastrarUsuario(usuario._email ,JSON.stringify(usuario));
+        Swal.fire('Cadastro realizado com sucesso, você será redirecionado.');
+        setTimeout(() => {
+          window.location.href = 'http://127.0.0.1:5500/src/pages/login.html';
+        }, 2000);
+    } catch (e){
+      throw new Error(e);
+    }
   }
 });
 

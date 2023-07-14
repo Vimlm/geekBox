@@ -2,13 +2,14 @@ function cadastrarUsuario(index, usuario) {
   localStorage.setItem(index, usuario);
 }
 
-function buscarUsuario(email) {
-  const chave = localStorage.getItem(email);
-  if(!chave) {
-    alert('Usuario não encontrado.');
+function buscarUsuario(key) {
+  const usuarioJson = localStorage.getItem(key);
+  const email = JSON.parse(usuarioJson)._email;
+  if(!email) {
+    return false;
   } else {
-    return localStorage.getItem(JSON.parse(email));
+    return true;
   }
 }
-
+buscarUsuario('victor@email.com');
 export { cadastrarUsuario, buscarUsuario };
