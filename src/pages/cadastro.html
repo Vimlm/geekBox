@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../img/favicon/favicon.png" type="image/x-icon">
+  <script type="module" src="../js/script.js" defer></script>
+  <script type="module" src="../js/scriptCadastro.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10" defer></script>
+  <title>Se junte nessa mania</title>
+</head>
+
+<body>
+  <header class="header cor-b">
+    <nav class="font-tt-bold">
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../pages/planos.html">Planos</a></li>
+        <li><a href="../pages/contato.html">Contatos </a></li>
+      </ul>
+    </nav>
+
+    <div class="logo">
+      <img src="../img/logo-img/logo.svg" alt="logo geekbox">
+      <span class="font-tt-bold">GeekBox</span>
+    </div>
+
+    <nav class="font-tt-bold">
+      <ul class="login">
+        <li><a href="./login.html">Login</a></li>
+        <li><a href="./cadastro.html" class="botao botao-preto font-tt-bold">Registre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container cad-container">
+    <img src="../img/cadastro/harry-carta.png" class="img-cadastro" alt="imagem do harry potter com cartas de hogwarts">
+    <form class="cad-formulario font-poppins">
+      <div class="dados-pessoais">
+        <span class="cad-span font-poppins">Dados Pessoais</span>
+        <div class="nome-completo">
+
+          <div class="cad-flex">
+            <label for="nome">*Nome</label>
+            <input type="text" name="nome" id="nome" required>
+          </div>
+
+          <div class="cad-flex">
+            <label for="sobrenome">*Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+          </div>
+        </div>
+
+        <div class="cad-flex">
+          <label for="cpf">*CPF</label>
+          <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" maxlength="14" required>
+        </div>
+
+        <div class="cad-flex">
+          <label for="email">*E-mail</label>
+          <input type="email" name="email" id="email" placeholder="email@email.com" required>
+        </div>
+
+        <div class="senha-confirma">
+          <div class="cad-flex">
+            <label for="senha">*Senha</label>
+            <input type="password" name="senha" id="senha" required>
+          </div>
+
+          <div class="cad-flex">
+            <label for="confirma-senha">*Confirme sua senha</label>
+            <input type="password" name="confirma-senha" id="confirma-senha" required>
+          </div>
+        </div>
+      </div>
+
+      <span class="cad-span">Dados Residenciais</span>
+      <div class="dados-residenciais">
+
+        <div class="cep-numero">
+          <div class="cad-flex">
+            <label for="cep">*CEP</label>
+            <input type="text" name="cep" id="cep" placeholder="XXXXXXXX" maxlength="8" required>
+          </div>
+
+          <div class="cad-flex">
+            <label for="numero">*Número</label>
+            <input type="text" name="numero" id="numero" required>
+          </div>
+        </div>
+
+        <div class="cad-flex">
+          <label for="logradouro">*Logradouro</label>
+          <input type="text" name="logradouro" id="logradouro" required>
+        </div>
+
+        <div class="complemento-bairro">
+          <div class="cad-flex">
+            <label for="complemento">Complemento</label>
+            <input type="text" name="complemento" id="complemento">
+          </div>
+
+          <div class="cad-flex">
+            <label for="bairro">*Bairro</label>
+            <input type="text" name="bairro" id="bairro" required>
+          </div>
+        </div>
+
+        <div class="cidade-estado">
+          <div class="cad-flex">
+            <label for="cidade">*Cidade</label>
+            <input type="text" name="cidade" id="cidade" required>
+          </div>
+
+          <div class="cad-flex">
+            <label for="estado">*Estado</label>
+            <input type="text" name="estado" id="estado" maxlength="2" required>
+          </div>
+        </div>
+      </div>
+
+      <div class="termo-botao">
+        <div class="termo">
+          <input id="check-box" type="checkbox" required>
+          <span class="cad-span font-poppins">Li e concordo com os <a class="cor-p1" href="./termos.html">termos e condições</a></span>
+        </div>
+
+        <button id="btn-registrar" class="botao botao-amarelo cad-botao font-tt-bold">Registrar</button>
+      </div>
+    </form>
+  </section>
+
+  <footer class="font-tt-bold footer">
+    <p>GeekBox. Alguns direitos reservados®</p>
+  </footer>
+</body>
+
+</html>

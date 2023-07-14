@@ -1,0 +1,12 @@
+.form-rec-senha {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box-rec-senha h1 {
+  text-transform: uppercase;
+}
+.btn-rec-senha {
+  width: 100%;
+  justify-content: center;
+}

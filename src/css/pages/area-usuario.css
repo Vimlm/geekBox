@@ -1,0 +1,69 @@
+.area-usuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: #fff;
+  border-radius: 4px;
+  margin: 40px auto;
+  text-align: center;
+  gap: 40px;
+}
+.area-usuario h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.area-usuario h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+.pedidos-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+}
+.pedidos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 70%;
+}
+.pedidos-info {
+  display: flex;
+  gap: 40px;
+}
+.item-pedido {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  border-bottom: 1px solid #000;
+}
+.cabecalho-pedidos,
+.detalhe-pedidos {
+  width: 50%;
+}
+.cabecalho-pedidos {
+  display: flex;
+  justify-content: space-between;
+}
+.detalhe-pedidos {
+  display: flex;
+  flex-direction: column;
+}
+.btn-pedido {
+  width: 50%;
+  text-transform: uppercase;
+  border: 1px solid #000;
+}
+.botoes-pedido {
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../img/favicon/favicon.png" type="image/x-icon">
+  <script type="module" src="../js/view/areaUsuarioView.js" defer></script>
+  <script type="module" src="../js/view/produtosView.js" defer></script>
+  <script type="module" src="../js/controller/produtoController.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10" defer></script>
+  <title>Nossas Caixas</title>
+</head>
+<body>
+  <header class="header header-user cor-b">
+    <div class="logo">
+      <img src="../img/logo-img/logo.svg" alt="logo geekbox">
+      <span class="font-tt-bold">GeekBox</span>
+    </div>
+
+    <nav class="font-tt-bold">
+      <ul class="menu">
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="../pages/produtos.html">Planos</a></li>
+        <li><a href="../pages/contato-logado.html">Contatos </a></li>
+        <a href="./area-usuario.html"><img src="../img/icon-header/user-icon.png" alt="icone usuário"></a>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="container font-tt-bold produtos-container">
+    <h1 class="cor-p1">escolha uma caixa que combine com você!</h1>
+
+    <div class="produtos">
+      <div>
+        <img src="../img/planos/box-p.png" alt="imagem box camiseta">
+        <button id="box-p" class="botao botao-amarelo">peça agora</button>
+      </div>
+
+      <div>
+        <img src="../img/planos/box-m.png" alt="imagem box camiseta e caneca">
+        <button id="box-m" class="botao botao-amarelo">peça agora</button>
+      </div>
+
+      <div>
+        <img src="../img/planos/box-g.png" alt="imagem box camiseta copo e funko do harry potter">
+        <button id="box-g" class="botao botao-amarelo">peça agora</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="font-tt-bold footer">
+    <p>GeekBox. Alguns direitos reservados®</p>
+  </footer>
+</body>
+</html>

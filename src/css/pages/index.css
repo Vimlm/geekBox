@@ -1,0 +1,36 @@
+.content-pag-inicial {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  gap: 60px;
+}
+.textos-pag-inicial {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+.textos-pag-inicial > h1 {
+  color: #35f22e;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+.textos-pag-inicial > p  {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+.produtos-pag-inicial {
+  width: 496px;
+}
+.container-logos {
+  display: flex;
+  opacity: 0.3;
+  background-color: #ffffff;
+  border-radius: 96px;
+  padding: 35px 55px 35px 55px;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.logos-pag-inicial {
+  height: 55px;
+}

@@ -1,0 +1,48 @@
+.cad-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-cadastro {
+  width: 50%;
+}
+.cad-formulario {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.cad-flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px;
+  color: #35f22e;
+}
+.dados-pessoais,
+.dados-residenciais {
+  display: flex;
+  flex-direction: column;
+}
+.nome-completo,
+.senha-confirma,
+.cep-numero,
+.cidade-estado,
+.complemento-bairro {
+  display: flex;
+}
+.termo-botao {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.cad-span,
+.termo {
+  margin-top: 10px;
+}
+.cad-span a {
+  text-decoration: underline;
+}
+.cad-botao {
+  align-self: end;
+}

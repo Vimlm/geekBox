@@ -1,0 +1,31 @@
+.pag-planos {
+  display: flex;
+  align-items: center;
+}
+.slide {
+  display: none;
+}
+.textos-pag-planos{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.textos-pag-planos > h2 {
+  color: #35f22e;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.textos-pag-planos > p  {
+  font-size: 26px; 
+  letter-spacing: 1.5px;
+  width: 35ch;
+}
+.slideshow-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btn-assine {
+  text-align: center;
+  font-size: 26px;
+}

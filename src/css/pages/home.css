@@ -1,0 +1,15 @@
+
+.content-home {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.textos-home > h1 {
+  text-transform: uppercase;
+  color: #35f22e;
+  font-size: 96px;
+}
+.textos-home > p {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head class="head">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="shortcut icon" href="../img/favicon/favicon.png" type="image/x-icon">
+  <script type='module' src="../js/script.js" defer></script>
+  <script type="module" src="../js/scriptLogin.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10" defer></script>
+  <title>Faça Login</title>
+</head>
+
+<body>
+  <header class="header cor-b">
+    <nav class="font-tt-bold ">
+      <ul class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../pages/planos.html">Planos</a></li>
+        <li><a href="../pages/contato.html">Contatos </a></li>
+      </ul>
+    </nav>
+
+    <div class="logo">
+      <img src="../img/logo-img/logo.svg" alt="logo geekbox">
+      <span class="font-tt-bold">GeekBox</span>
+    </div>
+
+    <nav class="font-tt-bold ">
+      <ul class="login">
+        <li><a href="./login.html">Login</a></li>
+        <li><a href="./cadastro.html" class="botao botao-preto font-tt-bold">Registre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="container box-form">
+    <h1 class="font-tt-bold">Login</h1>
+    <form class="form">
+      <div class="entrada-dados">
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="Digite seu email">
+        </div>
+
+        <div class="senha">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" required placeholder="Digite sua senha">
+        </div>
+        <a class="cor-p1" href="./rec-senha.html">esqueceu a senha?</a>
+      </div>
+
+      <button id="btn-login" class="botao botao-amarelo btn-login font-tt-bold">Login</button>
+    </form>
+  </section>
+
+  <footer class="font-tt-bold footer">
+    <p>GeekBox. Alguns direitos reservados®</p>
+  </footer>
+</body>
+
+</html>
