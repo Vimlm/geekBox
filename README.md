@@ -6,13 +6,13 @@ de espera.
 ## Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-**TRELLO**: Utilizado para a divisão das tarefas.
-**FIGMA**: Utilizado para a criação do design do site.
-**UNSPLASH**: Utilizado para a curadoria de imagens.
-**BRANCHES/GitHub**: Utilizado para trabalhar em grupo com mais facilidade.
+**TRELLO**: Utilizado para a divisão das tarefas.  
+**FIGMA**: Utilizado para a criação do design do site.  
+**UNSPLASH**: Utilizado para a curadoria de imagens.  
+**BRANCHES/GitHub**: Utilizado para trabalhar em grupo com mais facilidade.  
 **HTML**: Utilizado para estruturar o conteúdo da página.  
-**CSS**: Utilizado para estilizar a página e torná-la visualmente atraente.  
-**JavaScript**: Utilizado para manipular o Document Object Model (DOM), implementar a lógica de conversão de unidades e interagir com o usuário.
+**CSS**: Utilizado para estilizar a página e torná-la visualmente atraente.   
+**JavaScript**: Utilizado para criação de usuário, validação de usuário, manipulação do dom, criar avisos interativos com o usuário, requisições com API Via CEP com AJAX, modularizar o projeto, implementar o conceito de fila e carrossel de imagens.  
 
 ## Estrutura do Projeto
 ![Estrutura do Projeto](./src/img/readMe/Screenshot_2023-07-14_at_4.53.57_PM.png)
@@ -26,10 +26,10 @@ O site possui as seguintes funcionalidades:
 - Área de cadastro para assinatura da box.
 
 ## Executar o projeto
-- Para visualizar o preview online do projeto clique [aqui](https://github.com/Vimlm/geekBox);
+- Para visualizar o preview online do projeto clique [aqui](https://vimlm.github.io/geekBox/);
 
 ## Visualizar o projeto
-- Clicando [aqui](????) você consegue ver ele online;
+- Clicando [aqui](https://github1s.com/Vimlm/geekBox) você consegue ver ele online;
 - Caso prefira faça o clone do projeto em uma pasta de sua preferência e abra a pasta em um editor de texto da sua preferência;
 
 ## Conclusão
