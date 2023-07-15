@@ -1,9 +1,9 @@
-var slideIndex = 0;
+let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  var slides = document.getElementsByClassName("slide");
-  for (var i = 0; i < slides.length; i++) {
+  let slides = document.getElementsByClassName("slide");
+  for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
 
@@ -14,7 +14,7 @@ function showSlides() {
   }
 
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 3000); // Altere o tempo de exibição de cada slide aqui (em milissegundos)
+  setTimeout(showSlides, 3000);
 }
 
 function changeSlide(n) {

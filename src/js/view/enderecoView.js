@@ -10,7 +10,7 @@ function preencheEndereco(endereco) {
 
 cep.addEventListener('focusout', () => {
   if(cep.value === '') {
-    console.log('Primeiro você tem que preencher o cep');
+    Swal.fire('Primeiro você tem que preencher o cep');
   } else {
     buscaEndereco();
   }

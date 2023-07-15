@@ -1,4 +1,5 @@
 import { head } from "./script.js";
+
 const loginController = document.createElement("script");
 const loginView = document.createElement("script");
 

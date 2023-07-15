@@ -37,16 +37,20 @@ function atualizarDetalhePedidos() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  atualizarDetalhePedidos();
-
-  btnRecebido.addEventListener('click', event => {
-    event.preventDefault();
-    Swal.fire('O pedido foi recebido.');
-    removerPedido();
-  });
-
-  btnAtualizar.addEventListener('click', event => {
-    event.preventDefault();
+  try {
     atualizarDetalhePedidos();
-  });
+
+    btnRecebido.addEventListener('click', event => {
+      event.preventDefault();
+      Swal.fire('O pedido foi recebido.');
+      removerPedido();
+    });
+  
+    btnAtualizar.addEventListener('click', event => {
+      event.preventDefault();
+      atualizarDetalhePedidos();
+    });
+  } catch (e) {
+    console.log(e.message);
+  }
 });
